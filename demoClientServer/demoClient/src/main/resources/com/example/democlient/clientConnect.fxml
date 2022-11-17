@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.democlient.HelloController">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #263F73;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="47.0" layoutY="30.0" text="REMOTE FUNCTION" textFill="WHITE" />
+            <Button fx:id="processButton" layoutX="39.0" layoutY="86.0" mnemonicParsing="false" onAction="#onProcessButton" prefHeight="25.0" prefWidth="124.0" text="Process running" textAlignment="CENTER" />
+            <Button fx:id="shutdownButton" layoutX="41.0" layoutY="345.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="122.0" text="Shutdown" />
+            <Button fx:id="keyloggerButton" layoutX="39.0" layoutY="281.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="123.0" text="Keylogger" />
+            <Button fx:id="scrShotButton" layoutX="41.0" layoutY="213.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="121.0" text="Screen shot" textAlignment="CENTER" />
+            <Button fx:id="applicationButton" layoutX="40.0" layoutY="151.0" mnemonicParsing="false" text="Application running" textAlignment="CENTER" />
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>
